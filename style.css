@@ -8,6 +8,9 @@ h2 {
 
     font-size: 40px;
 }
+h3 {
+    font-size: 25px;
+}
 h1, h2 , h3{
     padding: 5px;
     text-align: center;
@@ -37,7 +40,7 @@ header{
 .menu li{
     margin-left: 10px;
     list-style: none;
-    font-size: 20px;
+    font-size: 30px;
 }
 .menu li a {
     display: block;
@@ -49,45 +52,39 @@ header{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-
+   
 }
 .moreinfo li{
     margin-left: 10px;
     list-style: none;
     font-size: 20px;
+    border: #000000 solid ;
+    border-radius: 10px;
 }
 .moreinfo li a {
     display: block;
     padding: 10px;
-    color: rgb(255, 2, 2);
+    color: rgb(0, 0, 0);
 }
 
 
 article{
-    padding-top: 50px;
+    padding-top: 10px;
     margin: auto;
     width: 60%;
     background-color: #ececec;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 4px 1pt 2px;
+    padding-bottom: 20px;
 
 
 }
 
 
-section {
-    width: 100%;
-    height: 30%;
-    color: darkgrey;
-    display: flex;
-    align-items: center;
-    padding-left: 30%;
-    padding-right: 30%;
-}
 .home {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     text-align: center;
     font-style: italic;
 }
@@ -144,7 +141,34 @@ footer h1{
     width: 32px;
     padding:10px;
 }
-@media (max-width: 600px){
+.logobig{
+    width: 120px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.flex > div {
+    flex: 1 1 300px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+
+}
+.flex img {
+    width: 250px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.flex p {
+    font-size: 25px;
+    text-align: center;
+}
+@media only screen and (max-width: 600px){
     h1 {
         font-size: 40px;
     }
@@ -165,6 +189,8 @@ footer h1{
         padding-right: 0px;
         border-radius: 4px 1pt 2px;
         padding-bottom: 50px;
+        padding-right: 15px;
+        padding-left: 15px;
     }  
     header{
         display: flex;
@@ -174,6 +200,7 @@ footer h1{
         background-color: rgb(0, 0, 0);
         color: white;
         flex-wrap: wrap;
+        padding-bottom: 50px;
     }
     p {
         text-align: justify;
@@ -198,5 +225,47 @@ footer h1{
     .cont p{
         padding-top: 10px;
         padding-bottom: 20px;
+    }
+    .menu {
+        display: block;
+     
+    
+    }
+    .menu li{
+        margin-left: 10px;
+        margin-right: 10px;
+        list-style: none;
+        font-size: 30px;
+        border: #ececec solid ;
+        border-radius: 10px;
+    }
+    .menu li a {
+        text-align: center;
+        display: block;
+        padding: 10px;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #logo {
+        width:  100%;
+    }
+    .flex {
+        max-width: 100%;
+    }
+    .flex > div {
+        width: 100%;
+        flex: 1 1 100%;
+        padding-bottom: 20px; 
+    }
+    .flex img {
+        width: 100%;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-self: center;
+    }
+    .flex p {
+        font-size: 25px;
     }
 }
