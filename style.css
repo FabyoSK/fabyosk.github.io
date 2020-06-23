@@ -16,7 +16,7 @@ h1, h2 , h3{
     text-align: center;
 }
 body {
-    background-color: #ececec;
+    background-color:#ececec;
 }
 p {
     font-size: 20px;
@@ -33,9 +33,9 @@ header{
 }
 
 .menu {
-    display: flex;
-    flex-wrap: wrap;
-
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
 }
 .menu li{
     margin-left: 10px;
@@ -180,17 +180,15 @@ footer h1{
         padding: 5px;
         text-align: center;
     }
+    
     article{
         padding-top: 50px;
-        margin: auto;
-        width: 100%;
-        background-color: #ececec;
         padding-left: 0px;
         padding-right: 0px;
+        width: 100%;
+        background-color: #ececec;
         border-radius: 4px 1pt 2px;
         padding-bottom: 50px;
-        padding-right: 15px;
-        padding-left: 15px;
     }  
     header{
         display: flex;
@@ -204,6 +202,7 @@ footer h1{
     }
     p {
         text-align: justify;
+        padding: 5px;
     }
     img{
         width: 50%;
@@ -263,6 +262,8 @@ footer h1{
         align-items: center;
         padding-top: 20px;
         padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
         justify-self: center;
     }
     .flex p {
