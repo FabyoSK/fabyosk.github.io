@@ -1,6 +1,6 @@
 # A Simple Portfolio Site ;) 
 
-Crie este site para registar os meu avanços e projetos em programação :)
+Criei este site para registar os meu avanços e projetos em programação :)
 
 Para acessar a Página Web desse Repositório [Clique aqui](https://fabyosk.github.io/).
 
