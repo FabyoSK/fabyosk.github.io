@@ -27,7 +27,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: #000;
     color: white;
 
 }
@@ -66,7 +66,9 @@ header{
     padding: 10px;
     color: rgb(0, 0, 0);
 }
-
+.menu li a:hover, .moreinfo li a:hover {
+    color: #ed9200;
+}
 
 article{
     padding-top: 10px;
