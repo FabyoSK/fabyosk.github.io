@@ -1,2 +1,10 @@
-# my-site
-* for teste
+# My Simple Portfolio Site
+
+Criei este site para registar os meus avanços e projetos em programação :)
+
+Para acessar a Página Web desse Repositório [Clique aqui](https://fabyosk.github.io/).
+
+Minhas Redes Sociais:
+* [My Twitter](https://Twitter.com/FabyoSK)
+
+FabyoSK,

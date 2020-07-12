@@ -73,7 +73,7 @@ header{
 article{
     padding-top: 10px;
     margin: auto;
-    width: 60%;
+    max-width: 1000px;
     background-color: #ececec;
     padding-left: 50px;
     padding-right: 50px;
@@ -89,6 +89,10 @@ article{
     padding-bottom: 20px;
     text-align: center;
     font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+.home h3 {
+  font-size: 24px;
 }
 .home img {
     padding-top: 50px;
@@ -96,11 +100,16 @@ article{
 }
 .home p {
     padding: 5px;
+    font-family: 'Playfair Display', serif;
 }
 #logo{
     width: 150px;
     margin: 0;
     padding-left: 10px;
+}
+.whatido{
+  word-spacing: 1px;
+  text-align: left;
 }
 img{
     width: 200px;
@@ -205,6 +214,16 @@ footer h1{
     p {
         text-align: justify;
         padding: 5px;
+    }
+    .home h1 {
+      font-size: 32px;
+    }
+    .home h3 {
+      font-size: 20px;
+    }
+    .home p{
+    text-align: center;
+    font-style: italic
     }
     img{
         width: 50%;
