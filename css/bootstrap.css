@@ -1,0 +1,11 @@
+.bg-light {
+  background-color: #303a45!important;
+  border-bottom: #ed9200 solid 4px!important;
+  
+}
+nav a{
+  color: white!important;
+}
+nav .navbar-brand {
+  color: #ed9200!important;
+}
