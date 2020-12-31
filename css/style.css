@@ -5,7 +5,7 @@
 :root{
     --color-background: #282a36;
     --color-back-soft: #6272a4;
-    --color-green: #50fa7b;
+    --accent-color: #50fa7b;
 }
 a {
   text-decoration: none;
@@ -26,8 +26,8 @@ body {
   border-radius: 12px;
 }
 #box:hover{
-  border: 2px var(--color-green) solid;
-  transition: 300ms;
+  border: 2px var(--accent-color) solid;
+  transition: 500ms;
 }
 h1 {
   font-size: 32px;
@@ -43,32 +43,31 @@ p {
 }
 #me {
   border-radius: 50%;
-  border: 4px var(--color-green) solid;
+  border: 4px var(--accent-color) solid;
   width: 250px;
   margin: 32px;
 }
 #special{
   display: inline-block;
-  color: var(--color-green);
+  color: var(--accent-color);
   font-size: 32px;
 }
 .logos{
   width: 32px;
   padding: 12px;
   background-color: white;
-  border: 1px var(--color-green) solid;
+  border: 1px var(--accent-color) solid;
   border-radius: 30%;
   margin: 12px;
 }
 .logos:hover{
-  background: var(--color-green);
-  width: 38px;
-  transition: 200ms;
+  background: var(--accent-color);
+  width: 40px;
+  transition: 100ms;
 }
 
 @media only screen and (max-width: 600px){
   #box {
     width: 90%;
   }
-
 }
