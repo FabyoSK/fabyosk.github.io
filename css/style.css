@@ -27,7 +27,7 @@ body {
 }
 #box:hover{
   border: 2px var(--color-green) solid;
-  transition: 500ms;
+  transition: 300ms;
 }
 h1 {
   font-size: 32px;
@@ -43,7 +43,7 @@ p {
 }
 #me {
   border-radius: 50%;
-  border: 6px var(--color-green) solid;
+  border: 4px var(--color-green) solid;
   width: 250px;
   margin: 32px;
 }
@@ -62,8 +62,8 @@ p {
 }
 .logos:hover{
   background: var(--color-green);
-  width: 40px;
-  transition: 100ms;
+  width: 38px;
+  transition: 200ms;
 }
 
 @media only screen and (max-width: 600px){
