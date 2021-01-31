@@ -3,34 +3,44 @@
   padding: 0;
 }
 :root{
-    --color-background: #282a36;
-    --color-back-soft: #6272a4;
-    --accent-color: #50fa7b;
+    --accent-color: rgb(221, 220, 220);
     font-size: 100%;
 }
 a {
   text-decoration: none;
 }
+
 body {
-  background-color: var(--color-background);
+  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: auto;
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+align-items: center;
+justify-content: center;
 }
 #box { 
-  background: #44475a;
   margin: 60px;
   padding: 32px;
-  width: 700px; 
+  min-height: 80vh;
+  width: 60%;
   text-align: center;
-  border-radius: 12px;
-  justify-content: center;
+  background: rgba( 226, 226, 226, 0.50 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6.0px );
+-webkit-backdrop-filter: blur( 6.0px );
+border-radius: 10px;
+
 
 }
 #box:hover{
-  border: 2px var(--accent-color) solid;
   transition: 500ms;
+  backdrop-filter: blur( 9.0px );
+-webkit-backdrop-filter: blur( 9.0px );
 }
 h1 {
   font-size: 2.6rem;
@@ -56,20 +66,72 @@ p {
   color: var(--accent-color);
   font-size: 2.6rem;
 }
+.social{
+border-radius: 10px;
+margin: auto;
+background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+}
 .logos{
   width: 32px;
   padding: 12px;
-  background-color: white;
-  border: 1px var(--accent-color) solid;
   border-radius: 30%;
   margin: 12px;
 }
 .logos:hover{
-  background: var(--accent-color);
+  background: white;
   width: 40px;
   transition: 100ms;
+
 }
 
+
+.btn-grad {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle1 {
+  top: 20%;
+  right: 10%;
+}
+.circle2 {
+  bottom: 20%;
+  left: 10%;
+}
 @media screen and (max-width: 600px){
   :root{
     font-size: 85%;
