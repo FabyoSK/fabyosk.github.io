@@ -1,5 +1,5 @@
 window.onload = function() {
-    location.href = "https://fabyosk.vercel.app";
+    location.href = "https://fabyosk.com";
 }
  
 function averageColor(imageElement) { 
